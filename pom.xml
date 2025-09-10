@@ -59,8 +59,8 @@
     </issueManagement>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <minimalJavaBuildVersion>${maven.compiler.source}</minimalJavaBuildVersion>
 
         <jakarta.atinject-api.version>2.0.1</jakarta.atinject-api.version>
@@ -394,8 +394,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <source>17</source>
+                    <target>17</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -654,7 +654,7 @@
                         <configuration>
                             <rules>
                                 <requireJavaVersion>
-                                    <version>11</version>
+                                    <version>17</version>
                                 </requireJavaVersion>
                             </rules>
                         </configuration>
@@ -668,7 +668,7 @@
                 <version>${maven-javadoc.version}</version>
                 <configuration>
                     <quiet>true</quiet>
-                    <source>11</source>
+                    <source>17</source>
                     <doclint>none</doclint>
                 </configuration>
             </plugin>
@@ -701,7 +701,7 @@
                 <version>${maven-javadoc.version}</version>
                 <configuration>
                     <quiet>true</quiet>
-                    <source>11</source>
+                    <source>17</source>
                     <doclint>none</doclint>
                 </configuration>
                 <reportSets>
@@ -929,7 +929,7 @@
                         <artifactId>maven-pmd-plugin</artifactId>
                         <version>3.25.0</version>
                         <configuration>
-                            <targetJdk>11</targetJdk>
+                            <targetJdk>17</targetJdk>
 <!--
                             <rulesets>
                                 <ruleset>
